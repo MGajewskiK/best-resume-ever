@@ -1,64 +1,72 @@
 /* #*/ export const PERSON = `
 name:
-  first: John
+  first: Maciej
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Gajewski-Kalaga
+about: Python Developer with Data Engineering background, focused on creating and maintaining complex systems, ETL pipelines and backend software.
+      Passionate problem-solver, quick learner, focused on leading edge technology solutions.
+position: Python developer / Data Engineer
 
-birth:
-  year: 1990
-  location: New York
+# birth:
+  # year: 1992
+  # location: Warsaw
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Brytlyt
+  position: Junior Data Engineer / Python Developer
+  timeperiod: since May 2020
+  description: Responsible for developing and maintaining ETL pipelines, solving problems with Python / Bash scripting,
+              R&D of new solutions like Kubernetes, database testing and management, working in a containerized environment on remote Linux servers.
+  website: https://www.brytlyt.com/
 
-- company: Company B
-  position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+- company: Billennium / LOT Polish Airlines
+  position: IT Service Desk Specialist
+  timeperiod: November 2019 - April 2020
+  description: Responsible for providing customer support for company employees, Active Directory and JIRA management,
+              hardware maintainence, working in a Microsoft Windows environment.
+  website: https://billennium.com/
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+- company: East Asia & Australia
+  position: Globetrotter
+  timeperiod: April 2016 - April 2019
+  description: Hitchhiking from Poland to Australia, travelling through Asian countries,
+              teaching English in Vietnam, volunteering in various places.
 
 education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- degree: Data Science Bootcamp, Sages, Warsaw
+  timeperiod: October 2019 - November 2020
+  description: Sages, Warsaw. Learning data manipulation, analysis and predictive modelling using
+              Python programming with NumPy, Pandas, Matplotlib, scikit-learn, Keras and Spark.
+  website: https://www.kodolamacz.pl/bootcamp-datascience/
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+- degree: Oil and Gas Engineering, AGH, Cracow
+  timeperiod: October 2011 - February 2015
+  description: Bachelor of Engineering. Learning math, statistics, physics, geology and engineering.
 
 # skill level goes 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
-- name: TypeScript
+- name: Python
   level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Data Engineering
+  level: 50
+- name: SQL
+  level: 50
+- name: Linux / Bash
+  level: 60
+# - name: Angular 2
+  # level: 60
+# - name: TypeScript
+  # level: 80
+- name: Quick learning
+  level: 90
+- name: English
+  level: 90
+knowledge: I agree to the processing of personal data provided in this document for realising the recruitment
+  process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018,
+  item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of
+  the Council of 27 April 2016 on the protection of natural persons with regard to the processing of
+  personal data and on the free movement of such data, and repealing Directive 95/46/EC
+  (General Data Protection Regulation).
 
 projects:
 - name: best-resume-ever
@@ -82,12 +90,13 @@ contributions:
   url: https://github.com/salomonelli/best-resume-ever
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: mgajewskik@gmail.com
+  phone: +48 690036668
+  # street: 1234 Broadway
+  city: Warsaw
+  website: linkedin.com/in/maciej-gajewski-kalaga/
+  github: MGajewskiK
+  linkedin: MGajewskiK
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `

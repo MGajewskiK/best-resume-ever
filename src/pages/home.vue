@@ -14,11 +14,27 @@
         </div>
       </router-link>
     </div>
+    <!-- <div class="preview"> -->
+      <!-- <router-link v-bind:to="'/resume/material-dark-modified'"> -->
+        <!-- <div class="preview-wrapper"> -->
+          <!-- <img src="../assets/preview/resume-material-dark-modified.png" /> -->
+          <!-- <span>material-dark-modified</span> -->
+        <!-- </div> -->
+      <!-- </router-link> -->
+    <!-- </div> -->
     <div class="preview">
       <router-link v-bind:to="'/resume/material-dark-projects'">
         <div class="preview-wrapper">
           <img src="../assets/preview/resume-material-dark-projects.png" />
           <span>material-dark-projects</span>
+        </div>
+      </router-link>
+    </div>
+    <div class="preview">
+      <router-link v-bind:to="'/resume/material-dark-modified'">
+        <div class="preview-wrapper">
+          <img src="../assets/preview/resume-material-dark-modified.png" />
+          <span>material-dark-modified</span>
         </div>
       </router-link>
     </div>
