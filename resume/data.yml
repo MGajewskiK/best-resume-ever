@@ -15,35 +15,38 @@ experience:
 - company: Brytlyt
   position: Junior Data Engineer / Python Developer
   timeperiod: since May 2020
-  description: Responsible for developing and maintaining ETL pipelines, solving problems with Python / Bash scripting,
-              R&D of new solutions like Kubernetes, database testing and management, working in a containerized environment on remote Linux servers.
+  description:
+    - content: Responsible for developing and maintaining ETL pipelines,
+    - content: solving problems with Python / Bash scripting,
+    - content: R&D of new solutions like Kubernetes, database testing and management,
+    - content: working in a containerized environment on remote Linux servers.
   website: https://www.brytlyt.com/
 
-- company: Billennium / LOT Polish Airlines
-  position: IT Service Desk Specialist
-  timeperiod: November 2019 - April 2020
-  description: Responsible for providing customer support for company employees, Active Directory and JIRA management,
-              hardware maintainence, working in a Microsoft Windows environment.
-  website: https://billennium.com/
+# - company: Billennium / LOT Polish Airlines
+#   position: IT Service Desk Specialist
+#   timeperiod: November 2019 - April 2020
+#   description: Responsible for providing customer support for company employees, Active Directory and JIRA management,
+#               hardware maintainence, working in a Microsoft Windows environment.
+#   website: https://billennium.com/
 
-- company: East Asia & Australia
-  position: Globetrotter
-  timeperiod: April 2016 - April 2019
-  description: Hitchhiking from Poland to Australia, travelling through Asian countries,
-              teaching English in Vietnam, volunteering in various places.
+# - company: East Asia & Australia
+#   position: Globetrotter
+#   timeperiod: April 2016 - April 2019
+#   description: Hitchhiking from Poland to Australia, travelling through Asian countries,
+#               teaching English in Vietnam, volunteering in various places.
 
-education:
-- degree: Data Science Bootcamp
-  school: Sages, Warsaw
-  timeperiod: October 2019 - November 2020
-  description: Learning data manipulation, analysis and predictive modelling using
-              Python programming with NumPy, Pandas, Matplotlib, scikit-learn, Keras and Spark.
-  website: https://www.kodolamacz.pl/bootcamp-datascience/
+# education:
+# - degree: Data Science Bootcamp
+#   school: Sages, Warsaw
+#   timeperiod: October 2019 - November 2020
+#   description: Learning data manipulation, analysis and predictive modelling using
+#               Python programming with NumPy, Pandas, Matplotlib, scikit-learn, Keras and Spark.
+#   website: https://www.kodolamacz.pl/bootcamp-datascience/
 
-- degree: Petroleum Engineering
-  school: AGH, Cracow
-  timeperiod: October 2011 - February 2015
-  description: Bachelor of Engineering. Learning math, statistics, physics, geology and engineering.
+# - degree: Petroleum Engineering
+#   school: AGH, Cracow
+#   timeperiod: October 2011 - February 2015
+#   description: Bachelor of Engineering. Learning math, statistics, physics, geology and engineering.
 
 # skill level goes 0 to 100
 skills:
@@ -97,7 +100,8 @@ contact:
   # street: 1234 Broadway
   city: Warsaw
   website: linkedin.com/in/maciej-gajewski-kalaga/
-  github: MGajewskiK
+  github_username: MGajewskiK
+  github_link: https://github.com/MGajewskiK
   linkedin: MGajewskiK
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
