@@ -122,17 +122,35 @@
           </p>
       </a>
     </div>
+
     <div class="section-headline">{{ lang.education }}</div>
     <div class="block" v-for="education in person.education" :key="education.degree">
       <a
       :href="education.website">
         <div class="block-helper"></div>
-        <div class="headline">{{education.degree}}</div>
-        <p class="info">
-          {{education.timeperiod}}, {{education.description}}
-        </p>
+        <h3 class="headline">{{education.degree}} - {{education.school}}</h3>
+          <div class="subheadline">{{education.timeperiod}}</div>
+          <p class="info">
+            {{education.description}}
+          </p>
+        <!-- <div class="headline">{{education.degree}}</div> -->
+        <!-- <p class="info"> -->
+          <!-- {{education.timeperiod}}, {{education.description}} -->
+        <!-- </p> -->
       </a>
     </div>
+
+    <!-- <div class="section-headline">{{ lang.education }}</div> -->
+    <!-- <div class="block" v-for="education in person.education" :key="education.degree"> -->
+      <!-- <a -->
+      <!-- :href="education.website"> -->
+        <!-- <div class="block-helper"></div> -->
+        <!-- <div class="headline">{{education.degree}}</div> -->
+        <!-- <p class="info"> -->
+          <!-- {{education.timeperiod}}, {{education.description}} -->
+        <!-- </p> -->
+      <!-- </a> -->
+    <!-- </div> -->
   </div>
 
   <div style="clear:both;"></div>
@@ -322,7 +340,7 @@ h4 {
       font-size:14px;
       color:rgba(0,0,0,0.870588);
       margin-bottom:0;
-      padding-top:20px;
+      padding-top:10px;
     }
     .icon {
       width:16%;
@@ -478,6 +496,8 @@ h4 {
     .text {
       border-bottom-style:none;
       padding-bottom:0;
+      font-size:13px;
+      font-weight:900;
     }
 
     .section-headline {

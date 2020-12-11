@@ -33,13 +33,15 @@ experience:
               teaching English in Vietnam, volunteering in various places.
 
 education:
-- degree: Data Science Bootcamp, Sages, Warsaw
+- degree: Data Science Bootcamp
+  school: Sages, Warsaw
   timeperiod: October 2019 - November 2020
-  description: Sages, Warsaw. Learning data manipulation, analysis and predictive modelling using
+  description: Learning data manipulation, analysis and predictive modelling using
               Python programming with NumPy, Pandas, Matplotlib, scikit-learn, Keras and Spark.
   website: https://www.kodolamacz.pl/bootcamp-datascience/
 
-- degree: Oil and Gas Engineering, AGH, Cracow
+- degree: Petroleum Engineering
+  school: AGH, Cracow
   timeperiod: October 2011 - February 2015
   description: Bachelor of Engineering. Learning math, statistics, physics, geology and engineering.
 
