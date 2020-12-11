@@ -52,14 +52,13 @@
       </div>
     </a>
 
-    <a v-if="person.contact.github" :href="contactLinks.github" target="_blank">
+    <a v-if="person.contact.github_link" :href="contactLinks.github" target="_blank">
       <div class="item">
         <div class="icon">
           <i class="fa fa-github"></i>
         </div>
         <div class="text">
-          <span>@{{person.contact.github}}</span>
-          <span>github.com/{{person.contact.github}}</span>
+          <span>@{{person.contact.github_username}}</span>
         </div>
       </div>
     </a>
@@ -67,10 +66,10 @@
     <a v-if="person.contact.website" :href="person.contact.website" target="_blank">
       <div class="item">
         <div class="icon">
-          <i class="material-icons">language</i>
+          <i class="fa fa-linkedin"></i>
         </div>
         <div class="text">
-          <span>{{person.contact.website}}</span>
+          <span>{{person.contact.linkedin}}</span>
         </div>
       </div>
     </a>
@@ -97,7 +96,7 @@
       </div>
       <div v-if="person.knowledge" class="skill">
         <div class="right">
-          <span>{{person.knowledge}}</span>
+          <span class="knowledge">{{person.knowledge}}</span>
         </div>
       </div>
     </div>
@@ -116,10 +115,12 @@
       :href="experience.website">
         <div class="block-helper"></div>
         <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
-          <div class="subheadline">{{experience.timeperiod}}</div>
-          <p class="info">
-            {{experience.description}}
-          </p>
+          <div class="subheadline experience-timeperiod">{{experience.timeperiod}}</div>
+          <ul class="bulletpoints">
+            <li class="bulletpoint" v-for="bulletpoint in experience.description" :key="bulletpoint.content">
+              {{bulletpoint.content}}
+            </li>
+          </ul>
       </a>
     </div>
 
@@ -253,7 +254,7 @@ li {
   margin:0;
   padding:0;
   list-style-type:none;
-  padding-top:9px;
+  padding-top: 2px;
 }
 ul {
   margin:0;
@@ -489,6 +490,10 @@ h4 {
             }
           }
         }
+        .knowledge {
+          font-size: 11px;
+          font-style: italic;
+        }
       }
     }
   }
@@ -512,5 +517,20 @@ h4 {
 #githubIcon {
   width:25px;
   padding-left:17px;
+}
+.bulletpoints {
+  padding-left: 20px;
+  list-style-type: disc!important;
+  .bulletpoint {
+    list-style-type: disc!important;
+    font-size: 14px;
+    font-weight: 300;
+  }
+}
+.bulletpoint {
+  list-style-type: circle!important;
+}
+.experience-timeperiod {
+  margin-bottom: 4px;
 }
 </style>
