@@ -3,7 +3,8 @@ name:
   first: Maciej
   middle:
   last: Gajewski-Kalaga
-about: Python Developer with Data Engineering background, focused on creating and maintaining complex systems, ETL pipelines and backend software.
+about: Python Developer with Data Engineering background,
+      focused on creating and maintaining complex systems, ETL pipelines and backend software.
       Passionate problem-solver, quick learner, focused on leading edge technology solutions.
 position: Python developer / Data Engineer
 
@@ -15,50 +16,60 @@ experience:
 - company: Brytlyt
   position: Junior Data Engineer / Python Developer
   timeperiod: since May 2020
-  description: Responsible for developing and maintaining ETL pipelines, solving problems with Python / Bash scripting,
-              R&D of new solutions like Kubernetes, database testing and management, working in a containerized environment on remote Linux servers.
+  description:
+    - point: Responsible for developing and maintaining ETL pipelines
+    - point: Solving problems using Python / Bash scripting
+    - point: R&D of new solutions (Kubernetes)
+    - point: Database testing and management (PostgreSQL)
+    - point: Working in a containerized environment on remote Linux servers
   website: https://www.brytlyt.com/
 
 - company: Billennium / LOT Polish Airlines
   position: IT Service Desk Specialist
   timeperiod: November 2019 - April 2020
-  description: Responsible for providing customer support for company employees, Active Directory and JIRA management,
-              hardware maintainence, working in a Microsoft Windows environment.
+  description:
+    - point: Responsible for providing customer support for company employees
+    - point: Active Directory and JIRA management
+    - point: Hardware maintainence
+    - point: Working in a Microsoft Windows environment
   website: https://billennium.com/
 
 - company: East Asia & Australia
   position: Globetrotter
   timeperiod: April 2016 - April 2019
-  description: Hitchhiking from Poland to Australia, travelling through Asian countries,
-              teaching English in Vietnam, volunteering in various places.
+  description:
+    - point: Hitchhiking from Poland to Australia
+    - point: Teaching English in Vietnam
+    - point: Volunteering in various places
+  website: https://scontent-frx5-1.xx.fbcdn.net/v/t31.0-8/20745954_1627526060610971_1325577010088506673_o.png?_nc_cat=105&ccb=2&_nc_sid=e3f864&_nc_ohc=XD_VGdPM5U8AX9fy1Ip&_nc_ht=scontent-frx5-1.xx&oh=ffda31c1d76eafc430234ca46f319d09&oe=5FFB966D
 
 education:
 - degree: Data Science Bootcamp
   school: Sages, Warsaw
   timeperiod: October 2019 - November 2020
-  description: Learning data manipulation, analysis and predictive modelling using
-              Python programming with NumPy, Pandas, Matplotlib, scikit-learn, Keras and Spark.
+  description:
+    - point: Python programming -> NumPy, Pandas, Matplotlib, Scikit-Learn, Keras, Spark
+    - point: Data manipulation, analysis and visualisation
+    - point: Statistics and predictive machine learning algorithms
   website: https://www.kodolamacz.pl/bootcamp-datascience/
 
 - degree: Petroleum Engineering
   school: AGH, Cracow
   timeperiod: October 2011 - February 2015
-  description: Bachelor of Engineering. Learning math, statistics, physics, geology and engineering.
+  description:
+    - point: Bachelor of Engineering
+    - point: Learning math, statistics, physics, geology
 
 # skill level goes 0 to 100
 skills:
 - name: Python
   level: 80
 - name: Data Engineering
-  level: 50
+  level: 60
 - name: SQL
-  level: 50
+  level: 60
 - name: Linux / Bash
   level: 60
-# - name: Angular 2
-  # level: 60
-# - name: TypeScript
-  # level: 80
 - name: Quick learning
   level: 90
 - name: English
@@ -97,7 +108,8 @@ contact:
   # street: 1234 Broadway
   city: Warsaw
   website: linkedin.com/in/maciej-gajewski-kalaga/
-  github: MGajewskiK
+  github_username: MGajewskiK
+  github_link: https://github.com/MGajewskiK
   linkedin: MGajewskiK
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
