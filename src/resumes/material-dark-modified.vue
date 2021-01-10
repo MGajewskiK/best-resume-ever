@@ -52,7 +52,7 @@
       </div>
     </a>
 
-    <a v-if="person.contact.github_link" :href="contactLinks.github" target="_blank">
+    <a v-if="person.contact.github_link" :href="person.contact.github_link" target="_blank">
       <div class="item">
         <div class="icon">
           <i class="fa fa-github"></i>
@@ -75,20 +75,69 @@
       </div>
     </a>
 
+    <!--<div class="item">-->
+      <!--<div class="section-headline">-->
+        <!--{{ lang.skills }}-->
+      <!--</div>-->
+      <!--<div class="skill" v-for="skill in person.skills" :key="skill.name">-->
+        <!--<div class="right">-->
+          <!--<span>{{skill.name}}&nbsp;</span>-->
+          <!--<div class="progress">-->
+            <!--<div class="determinate" :style="'width: '+skill.level+'%;'">-->
+              <!--<i class="fa fa-circle"></i>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+      <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="item">-->
+      <!--<div class="section-headline">-->
+        <!--{{ lang.skills }}-->
+      <!--</div>-->
+    <!--</div>-->
+    <!--<div class="section-content-grid">-->
+      <!--<a-->
+        <!--v-for="(skill, index) in person.skills"-->
+        <!--class="grid-item"-->
+        <!--:key="index"-->
+        <!--:class="{ link: skill.url !== undefined}"-->
+        <!--:href="skill.url">-->
+        <!--<div role="button" class="MuiChip-root" tabindex="0">-->
+          <!--<div class="MuiAvatar-root MuiAvatar-circle MuiChip-avatar">-->
+            <!--<img alt="skill.name" src="skill.image" class="MuiAvatar-img">-->
+          <!--</div>-->
+          <!--<span class="MuiChip-label">-->
+            <!--{{ skill.name }}-->
+          <!--</span>-->
+        <!--</div>-->
+        <!--[><span class="squarred-grid-item"><]-->
+          <!--[>{{ skill.name }}<]-->
+        <!--[></span><]-->
+      <!--</a>-->
+    <!--</div>-->
+
     <div class="item">
       <div class="section-headline">
         {{ lang.skills }}
       </div>
-      <div class="skill" v-for="skill in person.skills" :key="skill.name">
-        <div class="right">
-          <span>{{skill.name}}&nbsp;</span>
-          <div class="progress">
-            <div class="determinate" :style="'width: '+skill.level+'%;'">
-              <i class="fa fa-circle"></i>
-            </div>
-          </div>
+    </div>
+    <div class="section-content-grid">
+      <a
+        v-for="(skill, index) in person.skills"
+        class="grid-item"
+        :key="index"
+        :class="{ link: skill.url !== undefined}"
+        :href="skill.url">
+        <div class="MuiChip-root MuiChip-outlined">
+          <span class="MuiChip-label">
+            {{ skill.name }}
+          </span>
         </div>
-      </div>
+        <!--<span class="squarred-grid-item">-->
+          <!--{{ skill.name }}-->
+        <!--</span>-->
+      </a>
     </div>
 
     <div class="item last">
@@ -115,7 +164,7 @@
       <a
       :href="experience.website">
         <div class="block-helper"></div>
-        <h3 class="headline">{{experience.position}} - {{experience.company}}</h3>
+        <h3 class="headline"><b>{{experience.position}}</b> - {{experience.company}}</h3>
           <!--<div class="subheadline">{{experience.timeperiod}}</div>-->
           <!--<p class="info">-->
             <!--{{experience.description}}-->
@@ -132,7 +181,7 @@
       <a
       :href="education.website">
         <div class="block-helper"></div>
-        <h3 class="headline">{{education.degree}} - {{education.school}}</h3>
+        <h3 class="headline"><b>{{education.degree}}</b> - {{education.school}}</h3>
           <!--<div class="subheadline">{{education.timeperiod}}</div>-->
           <!--<p class="info">-->
             <!--{{education.description}}-->
@@ -251,7 +300,7 @@ a {
   opacity:0.8;
   margin-left:20px;
   margin-top:12px;
-  margin-bottom:6px;
+  margin-bottom:7px;
   color:#3f3d3c;
 }
 .c {
@@ -333,6 +382,12 @@ h4 {
     display:inline-block;
     box-shadow:0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
     .headline {
+      font-weight:300;
+      display:block;
+      font-size:15px;
+      color:rgba(0,0,0,0.870588);
+    }
+    .postheadline {
       font-weight:300;
       display:block;
       font-size:15px;
@@ -471,6 +526,7 @@ h4 {
       .right {
         float:right;
         width:93%;
+        margin-top: 1px !important;
         .progress {
           float:left;
           position:relative;
@@ -539,5 +595,58 @@ h4 {
 }
 .experience-timeperiod {
   margin-bottom: 4px;
+}
+
+.section-content-grid {
+  display: inline-flex;
+  flex-wrap: wrap;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+  justify-content: center;
+}
+
+.grid-item {
+  padding-right: 5px;
+}
+
+.squarred-grid-item {
+  display: block;
+  border: 1px solid white;
+  color: white;
+  margin-top: 5px;
+  padding: 5px;
+}
+
+.MuiChip-root {
+    border: none;
+    cursor: default;
+    height: 32px;
+    display: inline-flex;
+    outline: 0;
+    padding: 10px;
+    font-size: 0.8125rem;
+    box-sizing: border-box;
+    transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    align-items: center;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    white-space: nowrap;
+    border-radius: 100px;
+    vertical-align: middle;
+    justify-content: center;
+    text-decoration: none;
+    background-color: #e0e0e0;
+    margin-bottom: 7px;
+}
+.MuiChip-outlined {
+    border: 1px solid;
+    background-color: transparent;
+}
+.MuiChip-label {
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-overflow: ellipsis;
 }
 </style>

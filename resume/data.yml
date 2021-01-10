@@ -3,9 +3,10 @@ name:
   first: Maciej
   middle:
   last: Gajewski-Kalaga
-about: Python Developer with Data Engineering background,
-      focused on creating and maintaining complex systems, ETL pipelines and backend software.
-      Passionate problem-solver, quick learner, focused on leading edge technology solutions.
+about: Passionate problem-solver who uses leading edge technology solutions to get rid of those.
+      Focused on creating reliable software, maintaining complex systems, designing ETL pipelines.
+      Has experience in Data Engineering and Data Science issues. Recently started moving into Web and Cloud Technologies
+      to gain more general Software Engineering experience.
 position: Python developer / Data Engineer
 
 # birth:
@@ -13,18 +14,18 @@ position: Python developer / Data Engineer
   # location: Warsaw
 
 experience:
-- company: Brytlyt
+- company: Brytlyt, Remote
   position: Junior Data Engineer / Python Developer
   timeperiod: since May 2020
   description:
     - point: Responsible for developing and maintaining ETL pipelines
-    - point: Solving problems using Python / Bash scripting
-    - point: R&D of new solutions (Kubernetes)
+    - point: Solving problems using Python & Bash scripting
+    - point: R&D of new solutions (Airflow, Kubernetes)
     - point: Database testing and management (PostgreSQL)
     - point: Working in a containerized environment on remote Linux servers
   website: https://www.brytlyt.com/
 
-- company: Billennium / LOT Polish Airlines
+- company: Billennium / LOT Polish Airlines, Warsaw
   position: IT Service Desk Specialist
   timeperiod: November 2019 - April 2020
   description:
@@ -64,11 +65,25 @@ education:
 skills:
 - name: Python
   level: 80
+- name: Pandas
+  level: 80
 - name: Data Engineering
   level: 60
-- name: SQL
+- name: ETL
+  level: 60
+- name: PostgreSQL
+  level: 60
+- name: Django
+  level: 60
+- name: Docker
+  level: 60
+- name: Kubernetes
+  level: 60
+- name: Golang
   level: 60
 - name: Linux / Bash
+  level: 60
+- name: AWS
   level: 60
 - name: Quick learning
   level: 90
@@ -107,7 +122,7 @@ contact:
   phone: +48 690036668
   # street: 1234 Broadway
   city: Warsaw
-  website: linkedin.com/in/maciej-gajewski-kalaga/
+  website: https://linkedin.com/in/maciej-gajewski-kalaga/
   github_username: MGajewskiK
   github_link: https://github.com/MGajewskiK
   linkedin: MGajewskiK
