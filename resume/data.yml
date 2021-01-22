@@ -3,11 +3,11 @@ name:
   first: Maciej
   middle:
   last: Gajewski-Kalaga
-about: Passionate problem-solver who uses leading edge technology solutions to get rid of those.
-      Focused on creating reliable software, maintaining complex systems, designing ETL pipelines.
-      Has experience in Data Engineering and Data Science issues. Recently started moving into Web and Cloud Technologies
+about: Passionate problem-solver who uses leading edge technology solutions with desire to automate everything.
+      Focused on developing reliable software, maintaining complex systems, designing ETL pipelines.
+      Has experience in Data Engineering with DevOps mindset. Recently interested in Web and Cloud Technologies
       to gain more general Software Engineering experience.
-position: Python developer / Data Engineer
+position: Python Developer | Data Engineer
 
 # birth:
   # year: 1992
@@ -18,11 +18,11 @@ experience:
   position: Junior Data Engineer / Python Developer
   timeperiod: since May 2020
   description:
-    - point: Responsible for developing and maintaining ETL pipelines
-    - point: Solving problems using Python & Bash scripting
-    - point: R&D of new solutions (Airflow, Kubernetes)
+    - point: Responsible for developing ETL pipelines with Python
+    - point: Automating solutions with Python & Bash scripting
+    - point: R&D of new technologies (Airflow, Kubernetes)
     - point: Database testing and management (PostgreSQL)
-    - point: Working in a containerized environment on remote Linux servers
+    - point: Working in a dockerized environment on remote Linux servers
   website: https://www.brytlyt.com/
 
 - company: Billennium / LOT Polish Airlines, Warsaw
