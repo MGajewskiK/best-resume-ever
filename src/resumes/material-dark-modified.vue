@@ -493,7 +493,7 @@ h4 {
       float:right;
       width:69%;
       padding-right:10%;
-      padding-top:0;
+      padding-top:4px;
       display:block;
       font-size:15px;
       font-weight:300;
