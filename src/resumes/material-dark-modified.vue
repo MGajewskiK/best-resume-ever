@@ -130,6 +130,9 @@
         :class="{ link: skill.url !== undefined}"
         :href="skill.url">
         <div class="MuiChip-root MuiChip-outlined">
+          <div class="MuiAvatar-root MuiChip-avatar">
+            <img alt="..." :src="skill.foto" class="MuiAvatar-img">
+          </div>
           <span class="MuiChip-label">
             {{ skill.name }}
           </span>
@@ -624,8 +627,8 @@ h4 {
     height: 32px;
     display: inline-flex;
     outline: 0;
-    padding: 10px;
-    font-size: 0.8125rem;
+    padding: 6px;
+    font-size: 0.85rem;
     box-sizing: border-box;
     transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     align-items: center;
@@ -637,10 +640,21 @@ h4 {
     text-decoration: none;
     background-color: #e0e0e0;
     margin-bottom: 7px;
+    .MuiChip-avatar {
+        color: #616161;
+        width: 24px;
+        height: 24px;
+        font-size: 0.75rem;
+        margin-left: 5px;
+        margin-right: -6px;
+    }
 }
 .MuiChip-outlined {
-    border: 1px solid;
+    border: 0px solid;
     background-color: transparent;
+    .MuiChip-avatar {
+        margin-left: 4px;
+    }
 }
 .MuiChip-label {
     overflow: hidden;
@@ -648,5 +662,28 @@ h4 {
     padding-left: 12px;
     padding-right: 12px;
     text-overflow: ellipsis;
+}
+.MuiAvatar-img {
+    color: transparent;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    text-align: center;
+    text-indent: 10000px;
+}
+.MuiAvatar-root {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+    font-size: 1.25rem;
+    align-items: center;
+    flex-shrink: 0;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    line-height: 1;
+    user-select: none;
+    border-radius: 0%;
+    justify-content: center;
 }
 </style>

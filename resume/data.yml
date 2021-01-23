@@ -65,30 +65,64 @@ education:
 skills:
 - name: Python
   level: 80
+  foto: https://cdn4.iconfinder.com/data/icons/logos-and-brands/512/267_Python_logo-512.png
 - name: Pandas
   level: 80
+  #foto: https://cdn3.iconfinder.com/data/icons/animal-flat-colors/64/panda-512.png
+  #foto: https://e7.pngegg.com/pngimages/805/756/png-clipart-pandas-matplotlib-data-blog-python-angle-text.png
+  foto: https://cdn3.iconfinder.com/data/icons/unigrid-phantom-finance-vol-2/60/014_055_analytics_chart_stats_statistics_5-512.png
+  #foto: https://cdn3.iconfinder.com/data/icons/snowish/128x128/mimetypes/gnome-mime-application-vnd.lotus-1-2-3.png
 - name: Data Engineering
   level: 60
+  #foto: https://cdn0.iconfinder.com/data/icons/data-science-3-1/66/214-512.png
+  foto: https://cdn1.iconfinder.com/data/icons/data-analytics-sketchy/60/019_-_Reverse_Engineering-settings-data-analytics-512.png
+  #foto: https://cdn0.iconfinder.com/data/icons/data-science-2-1/66/76-512.png
 - name: ETL
   level: 60
+  foto: https://cdn2.iconfinder.com/data/icons/whcompare-isometric-web-hosting-servers/50/cloud-computing-512.png
+  #foto: https://cdn4.iconfinder.com/data/icons/big-data-astute-vol-1-1/512/ETL-512.png
 - name: PostgreSQL
   level: 60
+  #foto: https://cdn4.iconfinder.com/data/icons/Isloo_icons_by_IconFinder/128/database.png
+  foto: https://cdn1.iconfinder.com/data/icons/ColoBrush_Pack/256/database.png
 - name: Django
   level: 60
+  foto: https://dyltqmyl993wv.cloudfront.net/assets/stacks/django/img/django-stack-220x234.png
 - name: Docker
   level: 60
+  foto: https://cdn3.iconfinder.com/data/icons/social-media-2169/24/social_media_social_media_logo_docker-512.png
 - name: Kubernetes
   level: 60
+  #foto: https://cdn2.iconfinder.com/data/icons/mixd/512/20_kubernetes-512.png
+  foto: https://cdn2.iconfinder.com/data/icons/mixd/512/16_kubernetes-512.png
 - name: Golang
   level: 60
+  foto: https://blog.golang.org/go-brand/Go-Logo/PNG/Go-Logo_Aqua.png
 - name: Linux / Bash
   level: 60
+  foto: https://iconarchive.com/download/i99610/blackvariant/button-ui-requests-6/iTerm.ico
+  #foto: https://cdn3.iconfinder.com/data/icons/tango-icon-library/48/utilities-terminal-512.png
+  #foto: https://cdn4.iconfinder.com/data/icons/small-n-flat/24/terminal-512.png
 - name: AWS
   level: 60
+  #foto: https://www.citypng.com/public/uploads/small/11596297757otxqduibd2cfaqftg7mqfiqel66qry89yvhvcp3icjnyl7ocparxrwvzwtey834bo8e3jba3qqouuznollkfkjlx2ozluwv9rmvi.png
+  #foto: https://s32860.pcdn.co/wp-content/uploads/2018/08/23212950/AWS_icons-04.png
+  foto: https://www.freeiconspng.com/thumbs/amazon-icon/amazon-icon--circle-addon-1-iconset--martz90-7.png
+  #foto: https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Non-Service_Specific_copy__AWS_Cloud-512.png
 - name: Quick learning
   level: 90
+  #foto: https://cdn2.iconfinder.com/data/icons/personality-traits-flat-colorful/614/7932_-_Fast_Learner-512.png
+  #foto: https://www.clipartmax.com/png/middle/255-2552517_quick-cycle-fast-response-icon-png.png
+  #foto: https://p7.hiclipart.com/preview/407/974/537/artificial-intelligence-deep-learning-machine-learning-computer-icons-artificial-neural-network-technology.jpg
+  foto: https://cdn3.iconfinder.com/data/icons/iconustration-education-flat/96/growth-mindset-positive-thinking-learning-intelligence-machine-512.png
 - name: English
   level: 90
+  #foto: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3V3RdICi4K5GCXqWL4YPjlm9YatSMlKNxsw&usqp=CAU
+  #foto: https://www.clipartmax.com/png/middle/200-2009207_francais-english-italiano-english-flag-icon-flat.png
+  #foto: https://www.clipartmax.com/png/small/200-2009207_francais-english-italiano-english-flag-icon-flat.png
+  #foto: https://www.clipartmax.com/png/middle/200-2009207_francais-english-italiano-english-flag-icon-flat.png
+  foto: https://cdn2.iconfinder.com/data/icons/world-flags-1-1/100/Britain-512.png
+
 knowledge: I agree to the processing of personal data provided in this document for realising the recruitment
   process pursuant to the Personal Data Protection Act of 10 May 2018 (Journal of Laws 2018,
   item 1000) and in agreement with Regulation (EU) 2016/679 of the European Parliament and of
