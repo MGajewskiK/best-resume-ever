@@ -213,6 +213,8 @@
     <!-- </div> -->
   </div>
 
+<!--  background-color:#16151c; -->
+
   <div style="clear:both;"></div>
 </div>
 </template>
@@ -230,6 +232,7 @@ export default Vue.component(name, getVueOptions(name));
 .resume {
   font-family:'Roboto' !important;
   background:#cccccc;
+  background-color:#c9d8eab3;
 }
 a {
   color: inherit;
@@ -260,8 +263,8 @@ a {
     -webkit-margin-after:1em;
     -webkit-margin-start:0;
     -webkit-margin-end:0;
-    color:white;
-    color:rgba(0,0,0,0.7);
+    color:#16151c;
+    /*color:rgba(0,0,0,0.7);*/
     padding-top:0;
     margin-top:0;
     letter-spacing:10px;
@@ -279,7 +282,7 @@ a {
     letter-spacing:3px;
     color:white;
     color:#16151c;
-    color:rgba(63,61,60,0.71);
+    /*color:rgba(63,61,60,0.71);*/
     display:block;
     font-size:0.67em;
     font-size:10pt;
@@ -304,7 +307,7 @@ a {
   margin-left:20px;
   margin-top:12px;
   margin-bottom:7px;
-  color:#3f3d3c;
+  color:#16151c;
 }
 .c {
   clear:both;
@@ -373,7 +376,8 @@ h4 {
     margin-top:8px !important;
     font-weight:375;
     font-size: 16px;
-    color:rgba(0,0,0,0.541176);
+    /*color:rgba(0,0,0,0.541176);*/
+    color:#4d4a5d;
   }
   .block {
     width:90%;
@@ -459,16 +463,19 @@ h4 {
   float:left;
   padding:0;
   text-align:left;
-  color:#ffffff;
-  color:rgba(255,255,255,0.59);
-  background-color:#16151c;
+  color:#bbdbf7;
+  /*color:#ffffff;*/
+  /*color:rgba(255,255,255,0.59);*/
+  background-color:#040d3ac7;
   overflow:hidden;
   display:block;
   .section-headline {
-    color:rgba(255,255,255,0.54);
+    /*color:rgba(255,255,255,0.54);*/
+    color:#bbdbf7;
   }
   a {
-    color:rgba(255,255,255,0.59);
+    /*color:rgba(255,255,255,0.59);*/
+    color:#bbdbf7;
     text-decoration:none;
   }
   .heading {
@@ -606,7 +613,7 @@ h4 {
   margin-top: 5px;
   margin-bottom: 5px;
   margin-left: 15px;
-  justify-content: center;
+  justify-content: space-evenly;
 }
 
 .grid-item {

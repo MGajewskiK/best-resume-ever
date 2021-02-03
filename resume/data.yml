@@ -7,7 +7,7 @@ about: Passionate problem-solver who uses leading edge technology solutions with
       Focused on developing reliable software, maintaining complex systems, designing ETL pipelines.
       Has experience in Data Engineering and DevOps mindset. Recently interested in Web and Cloud Technologies
       to gain more general Software Engineering experience.
-position: Python Developer | Data Engineer
+position: Python Developer  |  Data Engineer
 
 # birth:
   # year: 1992
@@ -29,7 +29,7 @@ experience:
   position: IT Service Desk Specialist
   timeperiod: November 2019 - April 2020
   description:
-    - point: Responsible for providing customer support for company employees
+    - point: Responsible for providing customer support for LOT employees
     - point: Active Directory and JIRA management
     - point: Hardware maintainence
     - point: Working in a Microsoft Windows environment
@@ -59,7 +59,7 @@ education:
   timeperiod: October 2011 - February 2015
   description:
     - point: Bachelor of Engineering
-    - point: Learning math, statistics, physics, geology
+    - point: Learning math, physics, geology, chemistry
 
 # skill level goes 0 to 100
 skills:
@@ -109,6 +109,9 @@ skills:
   #foto: https://s32860.pcdn.co/wp-content/uploads/2018/08/23212950/AWS_icons-04.png
   foto: https://www.freeiconspng.com/thumbs/amazon-icon/amazon-icon--circle-addon-1-iconset--martz90-7.png
   #foto: https://cdn2.iconfinder.com/data/icons/amazon-aws-stencils/100/Non-Service_Specific_copy__AWS_Cloud-512.png
+- name: Clean Code
+  #foto: https://image.flaticon.com/icons/png/512/1458/1458497.png
+  foto: https://cdn0.iconfinder.com/data/icons/leto-blue-web-marketing-content-1/64/_-16-512.png
 - name: Quick learning
   level: 90
   #foto: https://cdn2.iconfinder.com/data/icons/personality-traits-flat-colorful/614/7932_-_Fast_Learner-512.png
